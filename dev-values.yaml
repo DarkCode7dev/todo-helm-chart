@@ -6,7 +6,7 @@ ui:
   replicas: 2
   image:
     name: todo-ui
-    tag: v4
+    tag: v2
   port: 80
   ServicePort: 80
   ingress:
