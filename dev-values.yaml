@@ -21,7 +21,7 @@ getTask:
   ServicePort: 80
   connectionString: "Driver={ODBC Driver 18 for SQL Server};Server=tcp:sql-dev-todoapp-077.database.windows.net,1433;Database=sqldb-dev-todoapp;Uid=devopsadmin;Pwd=P@ssw01rd@123;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
   ingress:
-    host: get-tasks-api.dhakkan.online
+    host: dev-get-tasks-api.dhakkan.online
     ingressClass: azure-application-gateway
 
 deleteTask:
@@ -33,7 +33,7 @@ deleteTask:
   ServicePort: 80
   connectionString: "Driver={ODBC Driver 18 for SQL Server};Server=tcp:sql-dev-todoapp-077.database.windows.net,1433;Database=sqldb-dev-todoapp;Uid=devopsadmin;Pwd=P@ssw01rd@123;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
   ingress:
-    host: delete-task-api.dhakkan.online
+    host: dev-delete-task-api.dhakkan.online
     ingressClass: azure-application-gateway
 
 addTask:
@@ -45,5 +45,5 @@ addTask:
   ServicePort: 80
   connectionString: "Driver={ODBC Driver 18 for SQL Server};Server=tcp:sql-dev-todoapp-077.database.windows.net,1433;Database=sqldb-dev-todoapp;Uid=devopsadmin;Pwd=P@ssw01rd@123;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
   ingress:
-    host: add-task-api.dhakkan.online
+    host: dev-add-task-api.dhakkan.online
     ingressClass: nginx
