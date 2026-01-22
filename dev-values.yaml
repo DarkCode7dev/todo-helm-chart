@@ -10,7 +10,7 @@ ui:
   port: 80
   ServicePort: 80
   ingress:
-    host: ui.dhakkan.online
+    host: dev-ui.dhakkan.online
 
 getTask:
   replicas: 2
